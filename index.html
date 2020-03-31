@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="Buchynskyi" name="Oleh">
+		<title>Landing page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+				<img src="img/logo.png" alt="Logo" id="logo"/>
+				<div id="header_contacts">
+					<img src="img/mail.png" alt="Mail ico" class="header_ico"/>
+					<p class="header_ico_text">contact@furie.co</p>
+					<img src="img/telephone.png" alt="Telephone ico" class="header_ico"/>
+					<p class="header_ico_text">+48 605 320 091</p>
+					<button class="header_button_log_in">LOG IN</button>
+				</div>
+				
+				<div class="header_center_text">CHANGE<br/>YOUR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CAR</div>
+				<img src="img/header_car.png" alt="Car" class="header_center_image"/>
+				<div class="header_galerry_buttons">
+					<div class="header_galerry_button"></div>
+					<div class="header_galerry_button_active"></div>
+					<div class="header_galerry_button"></div>
+				</div>
+				<div class="header_subtext">Car buying made simple</div>
+				<div id="header_input">
+					<input placeholder="Make">
+					<input placeholder="Model">
+					<input placeholder="City">
+					<button class="header_button_search">SEARCH</button>
+				</div>
+		</header>
+		
+		<nav>
+			<p class="nav_text">Take your best</p>
+			<div id="nav_icons">
+				<img src="img/mazda.png" alt="Mazda ico"/>
+				<img src="img/hyinday.png" alt="Hyinday ico"/>
+				<img src="img/bmw.png" alt="BMW ico"/>
+				<img src="img/volvo.png" alt="Volvo ico"/>
+				<img src="img/shevrole.png" alt="Shevrole ico"/>
+				<img src="img/mersedes.png" alt="Mersedes ico"/>
+				<img src="img/honda.png" alt="Honda ico"/>
+			</div>
+		</nav>
+		
+		<div id="preview">
+			<div class="preview_image"><img src="img/preview_car.png" alt="Car"/></div>
+			<div class="preview_text">
+				<h1>BMW Series</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed magna arcu. Quisque in augue faucibus, eleifend quam vitae, euismod enim. Donec egestas lacus ut euismod sollicitudin.</p>
+				<button class="preview_button">View all models</button>
+			</div>
+		</div>
+		
+		<div id="announcement">
+			<h2 class="announcement_title">Add your announcement now</h2>
+			<button class="announcement_button">Add now</button>
+			<img src="img/announcement_car.png" alt="Car" class="announcement_image"/>
+		</div>
+		
+		<div id="offers">
+			<div id="small_offer">
+				<div class="small_offer_blue_squad">
+					<div class="small_offer_blue_squad_text">FURIE</div>
+					<div class="small_offer_item">FRESH</div>
+				</div>
+				<img src="img/small_offer_car.png" alt="Car" class="small_offer_image"/>
+				<h3 class="small_offer_title">Mersedes Benz lorem</h3>
+				<h4 class="small_offer_category">Mersedes Cars</h4>
+				<p class="small_offer_details">2013 - 75 500 km - Diesel - 1.8</p>
+				<div class="offer_block">
+					<div class="small_offer_price">15.000$</div>
+					<button class="small_offer_button">MORE INFO</button>
+				</div>
+			</div>
+			
+			<div id="big_offer">
+				<div class="big_offer_white_squad">
+					<div class="big_offer_block">
+						<h4 class="big_offer_category">Mersedes Cars</h4>
+						<div class="big_offer_price">15.000$</div>
+					</div>
+					<h3 class="big_offer_title">Mersedes Benz lorem</h3>
+					<p class="big_offer_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed magna arcu. Quisque in augue faucibus, eleifend quam vitae, euismod enim.</p>
+					<button class="big_offer_button">ORDER CAR</button>
+				</div>
+				<div class="big_offer_blue_squad">
+					<div class="big_offer_item">FRESH</div>
+					<img src="img/big_offer_car.png" alt="Car" class="big_offer_image"/>
+					<div class="big_offer_slider">
+						<div class="big_offer_slider_not_active_point"></div>
+						<div class="big_offer_slider_active_point"></div>
+						<div class="big_offer_slider_not_active_point"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="filter_bar">
+			<div id="filter_simple">
+				<div class="filter_block">
+					<input placeholder="Make">
+					<input placeholder="City">
+					<input placeholder="Category">
+					<input placeholder="Keywords">
+				</div>
+				<div class="line"></div>
+				<div class="filter_block">
+					<img src="img/mazda.png" alt="Mazda ico"/>
+					<img src="img/hyinday.png" alt="Hyinday ico"/>
+					<img src="img/bmw.png" alt="BMW ico"/>
+					<img src="img/volvo.png" alt="Volvo ico"/>
+					<img src="img/shevrole.png" alt="Shevrole ico"/>
+					<img src="img/mersedes.png" alt="Mersedes ico"/>
+					<img src="img/honda.png" alt="Honda ico"/>
+				</div>
+				<div class="filter_block">
+					<input placeholder="Price from">
+					<input placeholder="To">
+					<input placeholder="Years from">
+					<input placeholder="To">
+				</div>
+			</div>
+			<button class="filter_advanced_button_hide">Hide advanced search</button>
+			<div id="filter_advanced">
+				<div class="filter_block">
+					<input placeholder="Make">
+					<input placeholder="City">
+					<input placeholder="Category">
+					<input placeholder="Keywords">
+				</div>
+				<div class="filter_block">
+					<input placeholder="Price from">
+					<input placeholder="To">
+					<input placeholder="Years from">
+					<input placeholder="To">
+				</div>
+				<div class="filter_block">
+					<button class="filter_advanced_button_search">SEARCH</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
